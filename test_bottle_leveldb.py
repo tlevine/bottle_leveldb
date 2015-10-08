@@ -1,5 +1,5 @@
 from bottle import Bottle
-from .bottle_leveldb import Plugin
+from bottle_leveldb import Plugin
 
 fake_leveldb = 'Pretend this is a LevelDB.'
 

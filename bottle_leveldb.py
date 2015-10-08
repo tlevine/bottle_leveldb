@@ -4,6 +4,9 @@ class Plugin(object):
     name = 'leveldb'
     api = 2
 
+    def __init__(self, db, keyword = 'leveldb'):
+        pass
+
     def setup(self, app):
         pass
 

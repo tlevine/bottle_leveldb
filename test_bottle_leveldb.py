@@ -5,7 +5,7 @@ fake_leveldb = 'Pretend this is a LevelDB.'
 
 def test_bottle_leveldb():
     app = Bottle()
-    ldb = Plugin(db = fake_leveldb, keyword = 'leveldb')
+    ldb = Plugin(fake_leveldb, keyword = 'leveldb')
     app.install(ldb)
 
     @app.route('/abc')
